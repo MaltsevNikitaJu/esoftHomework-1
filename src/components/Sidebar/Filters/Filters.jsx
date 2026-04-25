@@ -1,4 +1,5 @@
 import "./Filters.css";
+import PrimaryButton from "../../PrimaryButton/PrimaryButton";
 
 export default function Filters() {
   const brandOptions = ["All brands", "LG", "Samsung", "Xiaomi", "Lenovo"];
@@ -37,7 +38,7 @@ export default function Filters() {
           </div>
         </div>
         <div className="filter-body-content">
-          <button className="apply-button">Apply filters</button>
+          <PrimaryButton>Apply filters</PrimaryButton>
         </div>
       </div>
     </div>

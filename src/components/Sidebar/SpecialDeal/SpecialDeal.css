@@ -1,10 +1,10 @@
 .deal-container {
   width: 100%;
   margin-top: 12px;
-  min-width: 256;
-  min-height: 147;
+  min-width: 256px;
+  min-height: 147px;
   border-radius: 10px;
-  border: 1px solid #d1d5db;
+  border: 1px solid var(--grey);
   background: linear-gradient(90deg, #d4183d 0%, rgba(212, 24, 61, 0.8) 100%);
 }
 
@@ -51,18 +51,14 @@
 }
 
 .deal-header-text {
-  font-family: Inter;
   font-weight: 500;
-  font-style: Medium;
   font-size: 18px;
-  line-height: 27px;
-  letter-spacing: 0px;
-  color: white;
+  color: var(--white);
 }
 
 .deal-close {
   cursor: pointer;
-  color: white;
+  color: var(--white);
   font-size: 24px;
   line-height: 1;
 }
@@ -74,14 +70,10 @@
 }
 
 .deal-body-text {
-  font-family: Inter;
-  font-weight: 400;
-  font-style: Regular;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0px;
   max-width: 80%;
-  color: white;
+  color: var(--white);
 }
 
 .deal-body-text-timer {
@@ -92,11 +84,14 @@
 }
 
 .deal-body-timer {
-  font-family: Liberation Mono;
   font-weight: 700;
-  font-style: Bold;
   font-size: 18px;
   line-height: 28px;
-  letter-spacing: 0px;
-  color: white;
+  color: var(--white);
+}
+
+@media (max-width: 1023px) {
+  .deal-container {
+    min-width: 0;
+  }
 }

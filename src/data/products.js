@@ -295,3 +295,5 @@ const products = [
     brand: "Acer",
   },
 ];
+
+export default products;
