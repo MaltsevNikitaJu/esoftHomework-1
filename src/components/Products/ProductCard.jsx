@@ -16,7 +16,7 @@ export default function ProductCard({ product }) {
   const [cartCount, setCartCount] = useState(0);
 
   const totalImages = product.images.length;
-  const currentImage = useMemo(() => product.images[imageIndex], [product.images, imageIndex]);
+  const currentImage = product.images[imageIndex];
 
   const nextImage = () => {
     setImageIndex((prev) => (prev + 1) % totalImages);
