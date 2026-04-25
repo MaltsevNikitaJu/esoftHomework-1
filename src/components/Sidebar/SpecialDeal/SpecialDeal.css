@@ -1,0 +1,102 @@
+.deal-container {
+  width: 100%;
+  margin-top: 12px;
+  min-width: 256;
+  min-height: 147;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  background: linear-gradient(90deg, #d4183d 0%, rgba(212, 24, 61, 0.8) 100%);
+}
+
+.deal-content-container {
+  padding: 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.deal-main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.deal-header-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.deal-header-content {
+  flex: 1;
+}
+
+.deal-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.deal-close-container {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.deal-header-img img {
+  width: 18px;
+  height: 18px;
+}
+
+.deal-header-text {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: white;
+}
+
+.deal-close {
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.deal-body-contaner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.deal-body-text {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  max-width: 80%;
+  color: white;
+}
+
+.deal-body-text-timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.deal-body-timer {
+  font-family: Liberation Mono;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: white;
+}
